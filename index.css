@@ -1,0 +1,39 @@
+body{
+    background: url(./img/bg.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.site1{
+    /* margin-left: 511px; */
+   text-align: center;
+
+}
+
+.site{
+    /* padding-left: 20px; */
+    text-align: center;
+}
+
+img{
+    width: 350px;
+    height: 500px;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+
+img:hover{
+    filter: grayscale(0);
+    transition: .5s;
+}
+
+.img_pet{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
